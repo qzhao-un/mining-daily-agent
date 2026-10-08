@@ -1,0 +1,17 @@
+services:
+  agent:
+    build: .
+    container_name: mining-rights-agent
+    # 简报输出到挂载目录，容器退出后仍可查看
+    volumes:
+      - ./output:/app/output
+      - ./data:/app/data:ro
+    environment:
+      # 三个数据源均使用本地样本，保证离线可运行
+      MINING_NEWS_PROVIDER: sample
+      MINING_PDF_PROVIDER: default
+      MINING_PRICE_PROVIDER: sample
+      MCP_CALL_TIMEOUT: "20"
+    # MCP server 以子进程方式启动，需要保留 stdio 通道，
+    # 因此不设置 stdin_open / tty —— 避免日志污染 JSON-RPC 流。
+    restart: "no"
