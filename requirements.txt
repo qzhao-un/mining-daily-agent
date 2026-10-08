@@ -1,0 +1,24 @@
+# 注意：本项目要求 pip 兼容国内源。
+# 清华镜像曾出现查不到包的情况（index 可达但包索引异常），
+# 因此同时配置官方源作为回退 —— pip 会自动在两者间选择可用的。
+--extra-index-url https://pypi.org/simple
+
+# ===== MCP Runtime =====
+# 重要：这里只锁官方 SDK「mcp」，不要装第三方 fastmcp 包。
+# 同名不同包，导入写法与装饰器语法均不兼容（官方 @mcp.tool() 带括号）。
+# 锁 1.x 最后一个版本：2.0 起 API 改为 MCPServer 类 + handlers 构造参数，
+# 与本项目写法不兼容。1.30.0 是稳定的 v1 API。
+mcp[cli]==1.30.0
+
+# ===== Data Validation =====
+pydantic==2.13.5
+
+# ===== PDF Parsing =====
+pdfplumber==0.11.7
+
+# ===== HTTP Client (可选远端数据源) =====
+httpx==0.28.1
+
+# ===== Test =====
+pytest==8.4.2
+pytest-asyncio==1.2.0

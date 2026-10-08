@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtualenv
+.venv/
+venv/
+env/
+ENV/
+
+# 生成的简报（示例除外）
+output/*.md
+!output/.gitkeep
+
+# 测试缓存
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# 环境变量与密钥
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 数据层临时文件（样本数据本身需保留在版本控制中）
+data/*.tmp
+*.lock

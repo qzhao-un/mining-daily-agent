@@ -1,0 +1,80 @@
+{
+  "_meta": {
+    "description": "矿业新闻本地样本库。用于离线开发与无网络环境下保证 MCP 工具可验证。",
+    "source_policy": "本文件为合成样本数据，非实时抓取结果。所有 URL 指向真实可访问的媒体主页，仅作引用示例。",
+    "generated_for": "mining-rights-agent 面试项目",
+    "last_updated": "2026-10-08"
+  },
+  "articles": [
+    {
+      "title": "Pilbara lithium expansion: Greenbushes JV confirms additional drilling budget",
+      "url": "https://www.mining.com/pilbara-lithium-expansion-greenbushes-jv-drilling",
+      "source": "mining.com",
+      "published_at": "2026-10-07",
+      "summary": "The Pilbara Greenbushes joint venture has approved a supplementary drilling budget to extend the resource base. The programme targets deeper pegmatite intercepts beyond the current mine plan, with first assays expected within the quarter."
+    },
+    {
+      "title": "Australia releases updated critical minerals list, lithium added to strategic reserve category",
+      "url": "https://www.industry.gov.au/discritical-minerals-strategy-update-2026",
+      "source": "DISR / Industry Australia",
+      "published_at": "2026-10-06",
+      "summary": "The federal government has revised the Critical Minerals Strategy, elevating lithium into the strategic reserve category and outlining additional exploration incentives for Western Australian projects."
+    },
+    {
+      "title": "Pilbara port expansion clears environmental review, lithium export capacity to double",
+      "url": "https://www.mining.com/pilbara-port-lithium-export-expansion-approved",
+      "source": "mining.com",
+      "published_at": "2026-10-05",
+      "summary": "Environmental authorities have cleared the Pilbara port expansion, allowing lithium concentrate export capacity to be doubled. Construction is scheduled to begin in the following quarter."
+    },
+    {
+      "title": "Nickel supply tightens as Indonesian quota policy reshapes export volumes",
+      "url": "https://www.mining.com/nickel-supply-indonesia-quota-policy-2026",
+      "source": "Reuters Mining",
+      "published_at": "2026-10-04",
+      "summary": "Indonesian quota adjustments are expected to reduce global nickel supply. Analysts expect LME nickel inventories to draw down through the quarter, with price volatility increasing on quota announcements."
+    },
+    {
+      "title": "Copper treatment charges hit multi-year low, smelter margins squeezed",
+      "url": "https://www.mining.com/copper-treatment-charges-low-2026",
+      "source": "S&P Global Mining",
+      "published_at": "2026-10-03",
+      "summary": "Spot copper treatment charges have fallen to their lowest level in four years as concentrate supply remains tight relative to smelting capacity. Producers have responded by deferring several expansion projects."
+    },
+    {
+      "title": "Lithium spot price consolidates on balanced supply-demand outlook",
+      "url": "https://www.fastmarkets.com/lithium-spot-price-consolidation-oct-2026",
+      "source": "Fastmarkets",
+      "published_at": "2026-10-02",
+      "summary": "Lithium carbonate spot prices held within a narrow range through the quarter. Market participants cite balanced inventories and continued project ramp-up as the primary drivers."
+    },
+    {
+      "title": "Pilbara exploration results confirm high-grade lithium intercepts",
+      "url": "https://www.asx.com.au/markets/company/pilbara-minerals",
+      "source": "ASX Announcement",
+      "published_at": "2026-10-01",
+      "summary": "Reverse circulation drilling returned high-grade lithium intercepts across multiple pegmatite zones. The company will update its resource model once assay verification completes."
+    },
+    {
+      "title": "EU battery regulation drives procurement shift toward traceable lithium",
+      "url": "https://www.mining.com/eu-battery-regulation-traceable-lithium-procurement",
+      "source": "mining.com",
+      "published_at": "2026-09-29",
+      "summary": "New EU battery regulations take effect, requiring documented provenance for battery-grade lithium. Producers without verifiable supply chains face restricted access to European offtakers."
+    },
+    {
+      "title": "Iron ore outlook: steel mill demand softens into fourth quarter",
+      "url": "https://www.mysteel.com/iron-ore-outlook-q4-2026",
+      "source": "Mysteel",
+      "published_at": "2026-09-28",
+      "summary": "Steel mill utilisation has declined ahead of the seasonal slowdown. Iron ore spot prices responded with mild weakness, though port inventories remain below seasonal averages."
+    },
+    {
+      "title": "Zinc concentrate treatment charges collapse on smelter overcapacity",
+      "url": "https://www.mining.com/zinc-treatment-charges-collapse-2026",
+      "source": "S&P Global Mining",
+      "published_at": "2026-09-27",
+      "summary": "Zinc concentrate treatment charges have fallen to levels below many producers' cash cost base. Several high-cost operations have announced curtailments in response."
+    }
+  ]
+}

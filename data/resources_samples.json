@@ -1,0 +1,121 @@
+{
+  "_meta": {
+    "description": "NI 43-101 储量数据本地样本库。字段结构对齐技术报告储量表。",
+    "source_policy": "本文件为合成样本数据，用于离线开发与测试，非真实矿权报告数据。",
+    "spec": "NI 43-101 (JORC-aligned) resource classification",
+    "last_updated": "2026-10-08"
+  },
+  "reports": {
+    "pilbara_greenbushes": {
+      "source_url": "https://www.annualreports.com/HostedData/AnnualReportArchive/p/ASX_PIL_2025.pdf",
+      "document_title": "Pilbara Minerals Ltd - Annual Report 2025 (NI 43-101 Technical Report)",
+      "page_count": 148,
+      "resources": [
+        {
+          "category": "Measured",
+          "ore_tonnage": 42.8,
+          "grade": 1.42,
+          "grade_unit": "% Li2O",
+          "contained_metal": 1520000,
+          "metal_unit": "t Li",
+          "commodity": "Lithium",
+          "page": 87
+        },
+        {
+          "category": "Indicated",
+          "ore_tonnage": 78.4,
+          "grade": 1.21,
+          "grade_unit": "% Li2O",
+          "contained_metal": 2380000,
+          "metal_unit": "t Li",
+          "commodity": "Lithium",
+          "page": 87
+        },
+        {
+          "category": "Inferred",
+          "ore_tonnage": 63.2,
+          "grade": 0.94,
+          "grade_unit": "% Li2O",
+          "contained_metal": 1490000,
+          "metal_unit": "t Li",
+          "commodity": "Lithium",
+          "page": 88
+        },
+        {
+          "category": "Indicated",
+          "ore_tonnage": 15.6,
+          "grade": 0.52,
+          "grade_unit": "% Cu",
+          "contained_metal": 203000,
+          "metal_unit": "t Cu",
+          "commodity": "Copper",
+          "page": 91
+        }
+      ]
+    },
+    "newmont_kamoa": {
+      "source_url": "https://www.newmont.com/investors/reports-and-filings",
+      "document_title": "Newmont Corporation - 2025 Technical Report Summary",
+      "page_count": 214,
+      "resources": [
+        {
+          "category": "Measured",
+          "ore_tonnage": 118.5,
+          "grade": 3.42,
+          "grade_unit": "g/t Au",
+          "contained_metal": 1249000,
+          "metal_unit": "oz Au",
+          "commodity": "Gold",
+          "page": 76
+        },
+        {
+          "category": "Indicated",
+          "ore_tonnage": 204.7,
+          "grade": 2.88,
+          "grade_unit": "g/t Au",
+          "contained_metal": 1895000,
+          "metal_unit": "oz Au",
+          "commodity": "Gold",
+          "page": 76
+        },
+        {
+          "category": "Inferred",
+          "ore_tonnage": 156.3,
+          "grade": 2.14,
+          "grade_unit": "g/t Au",
+          "contained_metal": 1075000,
+          "metal_unit": "oz Au",
+          "commodity": "Gold",
+          "page": 77
+        }
+      ]
+    },
+    "barrick_nickel": {
+      "source_url": "https://www.barrick.com/English/investors/reports/default.aspx",
+      "document_title": "Barrick Gold Corporation - Q3 2025 Operations Report",
+      "page_count": 62,
+      "resources": [
+        {
+          "category": "Indicated",
+          "ore_tonnage": 88.9,
+          "grade": 1.35,
+          "grade_unit": "% Ni",
+          "contained_metal": 2990000,
+          "metal_unit": "t Ni",
+          "commodity": "Nickel",
+          "page": 41
+        },
+        {
+          "category": "Inferred",
+          "ore_tonnage": 47.2,
+          "grade": 1.08,
+          "grade_unit": "% Ni",
+          "contained_metal": 1275000,
+          "metal_unit": "t Ni",
+          "commodity": "Nickel",
+          "page": 42
+        }
+      ]
+    }
+  }
+}
