@@ -14,9 +14,9 @@
 | NI 43-101 储量 | `data/resources_samples.json` | ❌ 合成样本 | `MINING_PDF_PROVIDER=pdf` + 本地 PDF |
 | LME 价格 | `data/price_samples.json` | ❌ 合成样本 | `MINING_PRICE_PROVIDER=remote`（需授权） |
 
-设计这个默认值的原因：题目提到的 LME/SHFE 行情接口存在**登录墙与频控限制**，
-24小时内无法完成合规接入。本项目的选择是把它**抽象掉**（Provider 层），
-而不是绕过它。拿到正式数据授权后，新增一个 Provider 子类即可，
+如此设计默认值的原因：LME/SHFE 官方行情接口存在**登录墙与频控限制**，
+未授权情况下无法合规接入。本项目选择将数据源**抽象为 Provider 层接口**，
+而非绕过访问限制。取得正式数据授权后，新增一个 Provider 子类即可，
 上层工具与 Agent 编排无需改动。
 
 每个工具返回值都带 `origin` 字段，简报顶部也会声明数据来源：
